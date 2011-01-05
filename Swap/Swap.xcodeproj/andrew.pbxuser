@@ -8,16 +8,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* SwapViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {924, 610}}";
-			sepNavSelRange = "{431, 0}";
-			sepNavVisRange = "{0, 866}";
+			sepNavIntBoundsRect = "{{0, 0}, {576, 429}}";
+			sepNavSelRange = "{331, 0}";
+			sepNavVisRange = "{208, 639}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* SwapViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {924, 1664}}";
 			sepNavSelRange = "{1393, 0}";
-			sepNavVisRange = "{0, 1687}";
+			sepNavVisRange = "{1334, 1306}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -55,14 +55,9 @@
 			PBXWorkspaceStateSaveDate = 315893421;
 		};
 		perUserProjectItems = {
-			497E0BC312D434320052101D /* XCBuildMessageTextBookmark */ = 497E0BC312D434320052101D /* XCBuildMessageTextBookmark */;
-			497E0BC412D434320052101D /* PBXTextBookmark */ = 497E0BC412D434320052101D /* PBXTextBookmark */;
-			497E0BCB12D4343E0052101D /* PBXTextBookmark */ = 497E0BCB12D4343E0052101D /* PBXTextBookmark */;
-			497E0BCC12D4343E0052101D /* XCBuildMessageTextBookmark */ = 497E0BCC12D4343E0052101D /* XCBuildMessageTextBookmark */;
-			497E0BCD12D4343E0052101D /* PBXTextBookmark */ = 497E0BCD12D4343E0052101D /* PBXTextBookmark */;
 			497E0BE012D436E70052101D /* PBXTextBookmark */ = 497E0BE012D436E70052101D /* PBXTextBookmark */;
 			497E0BE112D436E70052101D /* PBXTextBookmark */ = 497E0BE112D436E70052101D /* PBXTextBookmark */;
-			497E0BE212D436E70052101D /* PBXTextBookmark */ = 497E0BE212D436E70052101D /* PBXTextBookmark */;
+			497E0BEE12D43C740052101D /* PBXTextBookmark */ = 497E0BEE12D43C740052101D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 497E0BB512D426CC0052101D /* Source Control */;
 		userBuildSettings = {
@@ -110,54 +105,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	497E0BC312D434320052101D /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Duplicate member 'portraitFooButton'";
-		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 16;
-		rType = 1;
-	};
-	497E0BC412D434320052101D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
-		name = "SwapViewController.h: 17";
-		rLen = 0;
-		rLoc = 331;
-		rType = 0;
-		vrLen = 651;
-		vrLoc = 208;
-	};
-	497E0BCB12D4343E0052101D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* SwapViewController.m */;
-		name = "SwapViewController.m: 93";
-		rLen = 63;
-		rLoc = 2830;
-		rType = 0;
-		vrLen = 1077;
-		vrLoc = 2520;
-	};
-	497E0BCC12D4343E0052101D /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Duplicate member 'portraitFooButton'";
-		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 16;
-		rType = 1;
-	};
-	497E0BCD12D4343E0052101D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
-		name = "SwapViewController.h: 20";
-		rLen = 0;
-		rLoc = 416;
-		rType = 0;
-		vrLen = 866;
-		vrLoc = 0;
-	};
 	497E0BE012D436E70052101D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* SwapViewController.h */;
@@ -178,14 +125,14 @@
 		vrLen = 1689;
 		vrLoc = 0;
 	};
-	497E0BE212D436E70052101D /* PBXTextBookmark */ = {
+	497E0BEE12D43C740052101D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* SwapViewController.m */;
 		name = "SwapViewController.m: 40";
 		rLen = 0;
 		rLoc = 1393;
 		rType = 0;
-		vrLen = 1687;
-		vrLoc = 0;
+		vrLen = 1306;
+		vrLoc = 1334;
 	};
 }
