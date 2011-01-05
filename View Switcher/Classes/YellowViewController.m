@@ -11,6 +11,17 @@
 
 @implementation YellowViewController
 
+- (IBAction)yellowButtonPressed {
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle:@"Yellow View Button Pressed"
+						  message:@"You pressed the button on the yellow view" 
+						  delegate:nil 
+						  cancelButtonTitle:@"Yep, I did" 
+						  otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+}
+
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

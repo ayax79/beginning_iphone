@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@class SwitchViewController
+@class SwitchViewController;
 @interface View_SwitcherAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 	SwitchViewController *switchViewController;

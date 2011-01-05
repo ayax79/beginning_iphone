@@ -12,5 +12,6 @@
 @interface BlueViewController : UIViewController {
 
 }
+- (IBAction)blueButtonPressed;
 
 @end

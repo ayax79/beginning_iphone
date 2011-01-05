@@ -12,5 +12,6 @@
 @interface YellowViewController : UIViewController {
 
 }
+- (IBAction)yellowButtonPressed;
 
 @end
