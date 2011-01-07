@@ -28,6 +28,7 @@
 		49FD367012D6A8770068A907 /* CustomPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD366E12D6A8770068A907 /* CustomPickerController.m */; };
 		49FD367112D6A8770068A907 /* CustomPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FD366F12D6A8770068A907 /* CustomPickerController.xib */; };
 		49FD367512D6A8A20068A907 /* customicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FD367412D6A8A20068A907 /* customicon.png */; };
+		49FD36C612D6E8950068A907 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49FD36C512D6E8950068A907 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		49FD366E12D6A8770068A907 /* CustomPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerController.m; sourceTree = "<group>"; };
 		49FD366F12D6A8770068A907 /* CustomPickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPickerController.xib; sourceTree = "<group>"; };
 		49FD367412D6A8A20068A907 /* customicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customicon.png; sourceTree = "<group>"; };
+		49FD36C512D6E8950068A907 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Pickers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pickers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				49FD36C512D6E8950068A907 /* statedictionary.plist */,
 				49FD367412D6A8A20068A907 /* customicon.png */,
 				49FD366B12D6A7490068A907 /* dependenticon.png */,
 				49980C8E12D6292700F99D69 /* doubleicon.png */,
@@ -214,6 +217,7 @@
 				49FD366C12D6A7490068A907 /* dependenticon.png in Resources */,
 				49FD367112D6A8770068A907 /* CustomPickerController.xib in Resources */,
 				49FD367512D6A8A20068A907 /* customicon.png in Resources */,
+				49FD36C612D6E8950068A907 /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
