@@ -54,10 +54,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316143712;
-			PBXWorkspaceStateSaveDate = 316143712;
+			PBXPerProjectTemplateStateSaveDate = 316204269;
+			PBXWorkspaceStateSaveDate = 316204269;
 		};
 		perUserProjectItems = {
+			4943970B12D8F9E200A3EA4D /* PBXTextBookmark */ = 4943970B12D8F9E200A3EA4D /* PBXTextBookmark */;
+			4943970C12D8F9E200A3EA4D /* PBXTextBookmark */ = 4943970C12D8F9E200A3EA4D /* PBXTextBookmark */;
 			49980C8012D552E600F99D69 /* PBXTextBookmark */ = 49980C8012D552E600F99D69 /* PBXTextBookmark */;
 			49980C9712D63C4D00F99D69 /* PBXTextBookmark */ = 49980C9712D63C4D00F99D69 /* PBXTextBookmark */;
 			49980C9812D63C4D00F99D69 /* PBXTextBookmark */ = 49980C9812D63C4D00F99D69 /* PBXTextBookmark */;
@@ -66,8 +68,6 @@
 			49B2C1AD12D7FEA2001990EF /* PBXBookmark */ = 49B2C1AD12D7FEA2001990EF /* PBXBookmark */;
 			49B2C1AE12D7FEA2001990EF /* PBXBookmark */ = 49B2C1AE12D7FEA2001990EF /* PBXBookmark */;
 			49B2C1AF12D7FEA2001990EF /* PBXTextBookmark */ = 49B2C1AF12D7FEA2001990EF /* PBXTextBookmark */;
-			49B2C1B012D7FEA2001990EF /* XCBuildMessageTextBookmark */ = 49B2C1B012D7FEA2001990EF /* XCBuildMessageTextBookmark */;
-			49B2C1B412D7FEA2001990EF /* PBXTextBookmark */ = 49B2C1B412D7FEA2001990EF /* PBXTextBookmark */;
 			49B2C1C812D7FF74001990EF /* PBXTextBookmark */ = 49B2C1C812D7FF74001990EF /* PBXTextBookmark */;
 			49B2C1C912D7FF74001990EF /* PBXTextBookmark */ = 49B2C1C912D7FF74001990EF /* PBXTextBookmark */;
 			49F046EC12D77D23008D8D4C /* PBXTextBookmark */ = 49F046EC12D77D23008D8D4C /* PBXTextBookmark */;
@@ -92,6 +92,32 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 183}";
 		};
+	};
+	4943970B12D8F9E200A3EA4D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 49FD366E12D6A8770068A907 /* CustomPickerController.m */;
+		name = "CustomPickerController.m: 119";
+		rLen = 0;
+		rLoc = 3275;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 2666;
+	};
+	4943970C12D8F9E200A3EA4D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4943970D12D8F9E200A3EA4D /* UIPickerView.h */;
+		name = "UIPickerView.h: 90";
+		rLen = 136;
+		rLoc = 3783;
+		rType = 0;
+		vrLen = 1677;
+		vrLoc = 2359;
+	};
+	4943970D12D8F9E200A3EA4D /* UIPickerView.h */ = {
+		isa = PBXFileReference;
+		name = UIPickerView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h;
+		sourceTree = "<absolute>";
 	};
 	49980C5712D551F900F99D69 /* Pickers */ = {
 		isa = PBXExecutable;
@@ -247,34 +273,6 @@
 		vrLen = 785;
 		vrLoc = 0;
 	};
-	49B2C1B012D7FEA2001990EF /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Expected expression before 'int'";
-		fRef = 49FD366E12D6A8770068A907 /* CustomPickerController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 66;
-		rType = 1;
-	};
-	49B2C1B412D7FEA2001990EF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 49B2C1B512D7FEA2001990EF /* UIPickerView.h */;
-		rLen = 1;
-		rLoc = 78;
-		rType = 1;
-	};
-	49B2C1B512D7FEA2001990EF /* UIPickerView.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = UIPickerView.h;
-		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 1235}}";
-			sepNavSelRange = "{3783, 136}";
-			sepNavVisRange = "{2438, 1598}";
-		};
-	};
 	49B2C1C812D7FF74001990EF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 49FD366E12D6A8770068A907 /* CustomPickerController.m */;
@@ -297,13 +295,14 @@
 	};
 	49B2C1CA12D7FF74001990EF /* UIPickerView.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = UIPickerView.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 1235}}";
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1209}}";
 			sepNavSelRange = "{3783, 136}";
-			sepNavVisRange = "{2438, 1598}";
+			sepNavVisRange = "{2359, 1677}";
 			sepNavWindowFrame = "{{15, 447}, {780, 576}}";
 		};
 	};
@@ -326,9 +325,9 @@
 	};
 	49FD366E12D6A8770068A907 /* CustomPickerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 2028}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1976}}";
 			sepNavSelRange = "{3275, 0}";
-			sepNavVisRange = "{2666, 1069}";
+			sepNavVisRange = "{2666, 1068}";
 			sepNavWindowFrame = "{{38, 426}, {780, 576}}";
 		};
 	};
