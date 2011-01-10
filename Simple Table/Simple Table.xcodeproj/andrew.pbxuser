@@ -1,0 +1,84 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Simple Table */ = {
+		activeExec = 0;
+		executables = (
+			49F1B5B612D98A5100D8250A /* Simple Table */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* Simple_TableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 327}}";
+			sepNavSelRange = "{254, 21}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Simple_TableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 949}}";
+			sepNavSelRange = "{1737, 0}";
+			sepNavVisRange = "{1299, 445}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 49F1B5B612D98A5100D8250A /* Simple Table */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Simple Table */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Simple Table */,
+		);
+		codeSenseManager = 49F1B5C112D98A7000D8250A /* Code sense */;
+		executables = (
+			49F1B5B612D98A5100D8250A /* Simple Table */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 316246609;
+			PBXWorkspaceStateSaveDate = 316246609;
+		};
+		sourceControlManager = 49F1B5C012D98A7000D8250A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	49F1B5B612D98A5100D8250A /* Simple Table */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Simple Table";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	49F1B5C012D98A7000D8250A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	49F1B5C112D98A7000D8250A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
