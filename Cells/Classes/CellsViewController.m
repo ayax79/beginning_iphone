@@ -7,6 +7,7 @@
 //
 
 #import "CellsViewController.h"
+#import "CustomCell.h"
 
 @implementation CellsViewController
 @synthesize computers;
@@ -61,51 +62,31 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
-	static NSString *CellTableIdentifier = @"CellTableIdentifier";
+	static NSString *CustomCellIdentifier = @"CustomCellIdentifier";
 	
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellTableIdentifier];
+	CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier:CustomCellIdentifier];
 	if (cell == nil) {
-		cell = [[[UITableViewCell alloc]
-				 initWithStyle:UITableViewCellStyleDefault 
-				 reuseIdentifier:CellTableIdentifier] autorelease];
+		NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomCell" owner:self options:nil];
 		
-		CGRect nameLabelRect = CGRectMake(0, 5, 70, 15);
-		UILabel *nameLabel = [[UILabel alloc] initWithFrame:nameLabelRect];
-		nameLabel.textAlignment = UITextAlignmentRight; 
-		nameLabel.text = @"Name:";
-		nameLabel.font = [UIFont boldSystemFontOfSize:12];
-		[cell.contentView addSubview: nameLabel];
-		[nameLabel release];
-		
-		CGRect colorLabelRect = CGRectMake(0, 26, 70, 15);
-		UILabel *colorLabel = [[UILabel alloc] initWithFrame:colorLabelRect];
-		colorLabel.textAlignment = UITextAlignmentRight; 
-		colorLabel.text = @"Color:";
-		colorLabel.font = [UIFont boldSystemFontOfSize:12];
-		[cell.contentView addSubview: colorLabel];
-		[colorLabel release];
-		
-		CGRect nameValueRect = CGRectMake(80, 5, 200, 15);
-		UILabel *nameValue = [[UILabel alloc] initWithFrame:nameValueRect];
-		nameValue.tag = kNameValueTag; 
-		[cell.contentView addSubview: nameValue];
-		[nameValue release];
-
-		CGRect colorValueRect = CGRectMake(80, 25, 200, 15);
-		UILabel *colorValue = [[UILabel alloc] initWithFrame:colorValueRect];
-		colorValue.tag = kColorValueTag; 
-		[cell.contentView addSubview: colorValue];
-		[colorValue release];
+		for (id oneObject in nib) {
+			if ([oneObject isKindOfClass:[CustomCell class]]) {
+				cell = (CustomCell *)oneObject;
+			}
+		}
 	}
-	
 	NSUInteger row = [indexPath row];
 	NSDictionary *rowData = [self.computers objectAtIndex:row];
-	UILabel *name = (UILabel *)[cell.contentView viewWithTag:kNameValueTag];
-	name.text = [rowData objectForKey:@"Name"];
-	
-	UILabel *color = (UILabel *)[cell.contentView viewWithTag:kColorValueTag];
-	color.text = [rowData objectForKey:@"Color"];
+	cell.colorLabel.text = [rowData objectForKey:@"Color"];
+	cell.nameLabel.text = [rowData objectForKey:@"Name"];
 	return cell;
+	 
+}
+
+#pragma mark -
+#pragma mark Table Delegate Methods
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	return kTableViewRowHeight;
 }
 
 

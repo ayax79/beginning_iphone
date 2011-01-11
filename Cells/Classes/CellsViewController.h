@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define kNameValueTag	1
-#define kColorValueTag	2
+#define kTableViewRowHeight 66
 @interface CellsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
 	NSArray *computers;
 }
