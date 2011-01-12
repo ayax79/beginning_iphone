@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+		<string>AED - United Arab Emirates Dirham</string>
+		<string>ANG - Netherlands Antillean Gulden</string>
+		<string>ARS - Argentine Peso</string>
+		<string>AUD - Australian Dollar</string>
+	</array>
+	<key>B</key>
+	<array>
+		<string>BGN - Bulgarian Lev</string>
+		<string>BHD - Bahraini Dinar</string>
+		<string>BND - Brunei Dollar</string>
+		<string>BOB - Bolivian Boliviano</string>
+		<string>BRL - Brazilian Real</string>
+		<string>BWP - Botswana Pula</string>
+	</array>
+	<key>C</key>
+	<array>
+		<string>CAD - Canadian Dollar</string>
+		<string>CHF - Swiss Franc</string>
+		<string>CLP - Chilean Peso</string>
+		<string>CNY - Chinese Yuan</string>
+		<string>COP - Colombian Peso</string>
+		<string>CSD - Serbian Dinar</string>
+		<string>CZK - Czech Koruna</string>
+	</array>
+	<key>D</key>
+	<array>
+		<string>DKK - Danish Krone</string>
+	</array>
+	<key>E</key>
+	<array>
+		<string>EEK - Estonian Kroon</string>
+		<string>EGP - Egyptian Pound</string>
+		<string>EUR - Euro</string>
+	</array>
+	<key>F</key>
+	<array>
+		<string>FJD - Fijian Dollar</string>
+	</array>
+	<key>G</key>
+	<array>
+		<string>GBP - British Pound</string>
+	</array>
+	<key>H</key>
+	<array>
+		<string>HKD - Hong Kong Dollar</string>
+		<string>HNL - Honduran Lempira</string>
+		<string>HRK - Croatian Kuna</string>
+		<string>HUF - Hungarian Forint</string>
+	</array>
+	<key>I</key>
+	<array>
+		<string>IDR - Indonesian Rupiah</string>
+		<string>ILS - New Israeli Sheqel</string>
+		<string>INR - Indian Rupee</string>
+		<string>ISK - Icelandic Króna</string>
+	</array>
+	<key>J</key>
+	<array>
+		<string>JPY - Japanese Yen</string>
+	</array>
+	<key>K</key>
+	<array>
+		<string>KRW - South Korean Won</string>
+		<string>KWD - Kuwaiti Dinar</string>
+		<string>KZT - Kazakhstani Tenge</string>
+	</array>
+	<key>L</key>
+	<array>
+		<string>LKR - Sri Lankan Rupee</string>
+		<string>LTL - Lithuanian Litas</string>
+	</array>
+	<key>M</key>
+	<array>
+		<string>MAD - Moroccan Dirham</string>
+		<string>MUR - Mauritian Rupee</string>
+		<string>MXN - Mexican Peso</string>
+		<string>MYR - Malaysian Ringgit</string>
+	</array>
+	<key>N</key>
+	<array>
+		<string>NOK - Norwegian Krone</string>
+		<string>NPR - Nepalese Rupee</string>
+		<string>NZD - New Zealand Dollar</string>
+	</array>
+	<key>O</key>
+	<array>
+		<string>OMR - Omani Rial</string>
+	</array>
+	<key>P</key>
+	<array>
+		<string>PEN - Peruvian Nuevo Sol</string>
+		<string>PHP - Philippine Peso</string>
+		<string>PKR - Pakistani Rupee</string>
+		<string>PLN - Polish Złoty</string>
+	</array>
+	<key>Q</key>
+	<array>
+		<string>QAR - Qatari Riyal</string>
+	</array>
+	<key>R</key>
+	<array>
+		<string>RON - New Romanian Leu</string>
+		<string>RUB - Russian Ruble</string>
+	</array>
+	<key>S</key>
+	<array>
+		<string>SAR - Saudi Riyal</string>
+		<string>SEK - Swedish Krona</string>
+		<string>SGD - Singapore Dollar</string>
+		<string>SIT - Slovenian Tolar</string>
+		<string>SKK - Slovak Koruna</string>
+	</array>
+	<key>T</key>
+	<array>
+		<string>THB - Thai Baht</string>
+		<string>TRY - New Turkish Lira</string>
+		<string>TTD - Trinidad and Tobago Dollar</string>
+		<string>TWD - New Taiwan Dollar</string>
+	</array>
+	<key>U</key>
+	<array>
+		<string>UAH - Ukrainian Hryvnia</string>
+	</array>
+	<key>V</key>
+	<array>
+		<string>VEB - Venezuelan Bolívar</string>
+	</array>
+	<key>Z</key>
+	<array>
+		<string>ZAR - South African Rand</string>
+	</array>
+</dict>
+</plist>
