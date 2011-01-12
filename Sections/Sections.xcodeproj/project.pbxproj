@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* SectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SectionsViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* SectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SectionsViewController.m */; };
+		49275F4912DD3B25003E9B6B /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49275F4812DD3B25003E9B6B /* NSDictionary-MutableDeepCopy.m */; };
 		49F1B6D112DBF0E800D8250A /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49F1B6D012DBF0E800D8250A /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		28D7ACF70DDB3853001CB0EB /* SectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Sections_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sections_Prefix.pch; sourceTree = "<group>"; };
+		49275F4712DD3B1D003E9B6B /* NSDictionary-MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-MutableDeepCopy.h"; sourceTree = "<group>"; };
+		49275F4812DD3B25003E9B6B /* NSDictionary-MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-MutableDeepCopy.m"; sourceTree = "<group>"; };
 		49F1B6D012DBF0E800D8250A /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Sections-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sections-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,6 +59,8 @@
 				1D3623250D0F684500981E51 /* SectionsAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* SectionsViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* SectionsViewController.m */,
+				49275F4712DD3B1D003E9B6B /* NSDictionary-MutableDeepCopy.h */,
+				49275F4812DD3B25003E9B6B /* NSDictionary-MutableDeepCopy.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SectionsAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* SectionsViewController.m in Sources */,
+				49275F4912DD3B25003E9B6B /* NSDictionary-MutableDeepCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
