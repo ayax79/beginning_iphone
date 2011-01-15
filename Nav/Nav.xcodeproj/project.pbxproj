@@ -13,6 +13,10 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		49169B7712E22BD6007D6546 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49169B7612E22BD6007D6546 /* disclosureButtonControllerIcon.png */; };
+		495C9E7F12E132CC0037CDC8 /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495C9E7E12E132CC0037CDC8 /* DisclosureDetailController.m */; };
+		495C9E8912E134540037CDC8 /* DisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495C9E8812E134540037CDC8 /* DisclosureDetail.xib */; };
+		495C9E8D12E135BA0037CDC8 /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495C9E8C12E135BA0037CDC8 /* DisclosureButtonController.m */; };
 		496C9D7612E0AFD800D05D44 /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C9D7512E0AFD800D05D44 /* FirstLevelViewController.m */; };
 		496C9D8412E0B31A00D05D44 /* SecondLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C9D8312E0B31A00D05D44 /* SecondLevelController.m */; };
 /* End PBXBuildFile section */
@@ -27,6 +31,12 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Nav_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav_Prefix.pch; sourceTree = "<group>"; };
+		49169B7612E22BD6007D6546 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disclosureButtonControllerIcon.png; path = ../../../Desktop/disclosureButtonControllerIcon.png; sourceTree = SOURCE_ROOT; };
+		495C9E7D12E132CC0037CDC8 /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
+		495C9E7E12E132CC0037CDC8 /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
+		495C9E8812E134540037CDC8 /* DisclosureDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisclosureDetail.xib; sourceTree = "<group>"; };
+		495C9E8B12E135BA0037CDC8 /* DisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController.h; sourceTree = "<group>"; };
+		495C9E8C12E135BA0037CDC8 /* DisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController.m; sourceTree = "<group>"; };
 		496C9D7412E0AFD800D05D44 /* FirstLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLevelViewController.h; sourceTree = "<group>"; };
 		496C9D7512E0AFD800D05D44 /* FirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelViewController.m; sourceTree = "<group>"; };
 		496C9D8212E0B31A00D05D44 /* SecondLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondLevelController.h; path = ../SecondLevelController.h; sourceTree = "<group>"; };
@@ -57,6 +67,10 @@
 				1D3623250D0F684500981E51 /* NavAppDelegate.m */,
 				496C9D7412E0AFD800D05D44 /* FirstLevelViewController.h */,
 				496C9D7512E0AFD800D05D44 /* FirstLevelViewController.m */,
+				495C9E7D12E132CC0037CDC8 /* DisclosureDetailController.h */,
+				495C9E7E12E132CC0037CDC8 /* DisclosureDetailController.m */,
+				495C9E8B12E135BA0037CDC8 /* DisclosureButtonController.h */,
+				495C9E8C12E135BA0037CDC8 /* DisclosureButtonController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -93,8 +107,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				49169B7612E22BD6007D6546 /* disclosureButtonControllerIcon.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Nav-Info.plist */,
+				495C9E8812E134540037CDC8 /* DisclosureDetail.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -159,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				495C9E8912E134540037CDC8 /* DisclosureDetail.xib in Resources */,
+				49169B7712E22BD6007D6546 /* disclosureButtonControllerIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +191,8 @@
 				1D3623260D0F684500981E51 /* NavAppDelegate.m in Sources */,
 				496C9D7612E0AFD800D05D44 /* FirstLevelViewController.m in Sources */,
 				496C9D8412E0B31A00D05D44 /* SecondLevelController.m in Sources */,
+				495C9E7F12E132CC0037CDC8 /* DisclosureDetailController.m in Sources */,
+				495C9E8D12E135BA0037CDC8 /* DisclosureButtonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

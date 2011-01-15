@@ -8,6 +8,7 @@
 
 #import "FirstLevelViewController.h"
 #import "SecondLevelController.h"
+#import "DisclosureButtonController.h"
 
 
 @implementation FirstLevelViewController
@@ -16,6 +17,16 @@
 - (void)viewDidLoad {
 	self.title = @"First Level";
 	NSMutableArray *array = [[NSMutableArray alloc] init];
+	
+	// Disclosure Button
+	DisclosureButtonController *disclosureButtonController = 
+		[[DisclosureButtonController alloc]
+		 initWithStyle:UITableViewStylePlain];
+	disclosureButtonController.title = @"Disclosure Buttons";
+	disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
+	[array addObject:disclosureButtonController];
+	[disclosureButtonController release];
+	
 	self.controllers = array;
 	[array release];
 	[super viewDidLoad];
@@ -30,7 +41,11 @@
 }
 #pragma mark -
 #pragma mark Table Data Source Methods
-- (UITableViewCell *)tableView:(UITableView *)tableView 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return [self.controllers count];
+}
+
+	- (UITableViewCell *)tableView:(UITableView *)tableView 
 	cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
 	static NSString *FirstLevelCell = @"FirstLevelCell";
