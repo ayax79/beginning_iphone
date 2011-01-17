@@ -10,7 +10,7 @@
 #import "SecondLevelController.h"
 #import "DisclosureButtonController.h"
 #import "CheckListController.h"
-
+#import "RowControlsController.h"
 
 @implementation FirstLevelViewController
 @synthesize controllers;
@@ -34,7 +34,15 @@
 	checkListController.title = @"Check One";
 	checkListController.rowImage  = [UIImage imageNamed:@"checkmarkControllerIcon.png"];
 	[array addObject:checkListController];
-	[checkListController release];									 	
+	[checkListController release];		
+	
+	// Table Row Controls
+	RowControlsController *rowControlsController = 
+		[[RowControlsController alloc]
+		 initWithStyle:UITableViewStylePlain];
+	rowControlsController.title = @"Row Controls";
+	[array addObject:rowControlsController];
+	[rowControlsController release];
 	
 	self.controllers = array;
 	[array release];

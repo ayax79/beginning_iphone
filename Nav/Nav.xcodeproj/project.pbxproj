@@ -20,6 +20,9 @@
 		496C9D7612E0AFD800D05D44 /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C9D7512E0AFD800D05D44 /* FirstLevelViewController.m */; };
 		496C9D8412E0B31A00D05D44 /* SecondLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C9D8312E0B31A00D05D44 /* SecondLevelController.m */; };
 		49F7E40A12E3C0B9002609C2 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */; };
+		49F7E42512E3C29B002609C2 /* RowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E42412E3C29B002609C2 /* RowControlsController.m */; };
+		49F7E43312E3D6A9002609C2 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E43212E3D6A9002609C2 /* button_down.png */; };
+		49F7E43512E3D6B0002609C2 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E43412E3D6B0002609C2 /* button_up.png */; };
 		49F99BF812E2A71F000BFA0A /* CheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F99BF712E2A71F000BFA0A /* CheckListController.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +47,10 @@
 		496C9D8212E0B31A00D05D44 /* SecondLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondLevelController.h; path = ../SecondLevelController.h; sourceTree = "<group>"; };
 		496C9D8312E0B31A00D05D44 /* SecondLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondLevelController.m; path = ../SecondLevelController.m; sourceTree = "<group>"; };
 		49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
+		49F7E42312E3C29B002609C2 /* RowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowControlsController.h; sourceTree = "<group>"; };
+		49F7E42412E3C29B002609C2 /* RowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowControlsController.m; sourceTree = "<group>"; };
+		49F7E43212E3D6A9002609C2 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		49F7E43412E3D6B0002609C2 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
 		49F99BF612E2A71F000BFA0A /* CheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListController.h; sourceTree = "<group>"; };
 		49F99BF712E2A71F000BFA0A /* CheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Nav-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nav-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -78,6 +85,8 @@
 				495C9E8C12E135BA0037CDC8 /* DisclosureButtonController.m */,
 				49F99BF612E2A71F000BFA0A /* CheckListController.h */,
 				49F99BF712E2A71F000BFA0A /* CheckListController.m */,
+				49F7E42312E3C29B002609C2 /* RowControlsController.h */,
+				49F7E42412E3C29B002609C2 /* RowControlsController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -114,6 +123,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				49F7E43412E3D6B0002609C2 /* button_up.png */,
+				49F7E43212E3D6A9002609C2 /* button_down.png */,
 				49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */,
 				49169B7612E22BD6007D6546 /* disclosureButtonControllerIcon.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -186,6 +197,8 @@
 				495C9E8912E134540037CDC8 /* DisclosureDetail.xib in Resources */,
 				49169B7712E22BD6007D6546 /* disclosureButtonControllerIcon.png in Resources */,
 				49F7E40A12E3C0B9002609C2 /* checkmarkControllerIcon.png in Resources */,
+				49F7E43312E3D6A9002609C2 /* button_down.png in Resources */,
+				49F7E43512E3D6B0002609C2 /* button_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +216,7 @@
 				495C9E7F12E132CC0037CDC8 /* DisclosureDetailController.m in Sources */,
 				495C9E8D12E135BA0037CDC8 /* DisclosureButtonController.m in Sources */,
 				49F99BF812E2A71F000BFA0A /* CheckListController.m in Sources */,
+				49F7E42512E3C29B002609C2 /* RowControlsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
