@@ -24,6 +24,8 @@
 		49F7E43312E3D6A9002609C2 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E43212E3D6A9002609C2 /* button_down.png */; };
 		49F7E43512E3D6B0002609C2 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E43412E3D6B0002609C2 /* button_up.png */; };
 		49F7E46B12E3DDAF002609C2 /* MoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E46A12E3DDAF002609C2 /* MoveMeController.m */; };
+		49F7E4AF12E3EA45002609C2 /* DeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E4AE12E3EA45002609C2 /* DeleteMeController.m */; };
+		49F7E4B712E3F7B6002609C2 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E4B612E3F7B6002609C2 /* computers.plist */; };
 		49F99BF812E2A71F000BFA0A /* CheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F99BF712E2A71F000BFA0A /* CheckListController.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,9 @@
 		49F7E43412E3D6B0002609C2 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
 		49F7E46912E3DDAF002609C2 /* MoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveMeController.h; sourceTree = "<group>"; };
 		49F7E46A12E3DDAF002609C2 /* MoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveMeController.m; sourceTree = "<group>"; };
+		49F7E4AD12E3EA45002609C2 /* DeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteMeController.h; sourceTree = "<group>"; };
+		49F7E4AE12E3EA45002609C2 /* DeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteMeController.m; sourceTree = "<group>"; };
+		49F7E4B612E3F7B6002609C2 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
 		49F99BF612E2A71F000BFA0A /* CheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListController.h; sourceTree = "<group>"; };
 		49F99BF712E2A71F000BFA0A /* CheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Nav-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nav-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -92,6 +97,8 @@
 				49F7E42412E3C29B002609C2 /* RowControlsController.m */,
 				49F7E46912E3DDAF002609C2 /* MoveMeController.h */,
 				49F7E46A12E3DDAF002609C2 /* MoveMeController.m */,
+				49F7E4AD12E3EA45002609C2 /* DeleteMeController.h */,
+				49F7E4AE12E3EA45002609C2 /* DeleteMeController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -128,6 +135,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				49F7E4B612E3F7B6002609C2 /* computers.plist */,
 				49F7E43412E3D6B0002609C2 /* button_up.png */,
 				49F7E43212E3D6A9002609C2 /* button_down.png */,
 				49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */,
@@ -204,6 +212,7 @@
 				49F7E40A12E3C0B9002609C2 /* checkmarkControllerIcon.png in Resources */,
 				49F7E43312E3D6A9002609C2 /* button_down.png in Resources */,
 				49F7E43512E3D6B0002609C2 /* button_up.png in Resources */,
+				49F7E4B712E3F7B6002609C2 /* computers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +232,7 @@
 				49F99BF812E2A71F000BFA0A /* CheckListController.m in Sources */,
 				49F7E42512E3C29B002609C2 /* RowControlsController.m in Sources */,
 				49F7E46B12E3DDAF002609C2 /* MoveMeController.m in Sources */,
+				49F7E4AF12E3EA45002609C2 /* DeleteMeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

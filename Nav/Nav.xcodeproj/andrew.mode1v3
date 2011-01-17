@@ -295,7 +295,7 @@
 							<real>207</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>782 97 1498 931 0 0 1680 1028 </string>
+						<string>840 93 1498 931 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -325,7 +325,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>49F7E4AC12E3E972002609C2</string>
+										<string>49F7E4C712E3F99A002609C2</string>
 										<key>history</key>
 										<array>
 											<string>49F99BEA12E2472B000BFA0A</string>
@@ -344,7 +344,9 @@
 											<string>49F7E45D12E3DC3A002609C2</string>
 											<string>49F7E48B12E3E31E002609C2</string>
 											<string>49F7E4A412E3E766002609C2</string>
-											<string>49F7E4AB12E3E972002609C2</string>
+											<string>49F7E4BE12E3F8AC002609C2</string>
+											<string>49F7E4BF12E3F8AC002609C2</string>
+											<string>49F7E4C012E3F8AC002609C2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,7 +360,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1269, 684}}</string>
 								<key>RubberWindowFrame</key>
-								<string>782 97 1498 931 0 0 1680 1028 </string>
+								<string>840 93 1498 931 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -378,7 +380,7 @@
 								<key>Frame</key>
 								<string>{{0, 689}, {1269, 201}}</string>
 								<key>RubberWindowFrame</key>
-								<string>782 97 1498 931 0 0 1680 1028 </string>
+								<string>840 93 1498 931 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -551,7 +553,7 @@
 		<string>/Users/andrew/src/beginning_iphone/Nav/Nav.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>782 97 1498 931 0 0 1680 1028 </string>
+	<string>840 93 1498 931 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
