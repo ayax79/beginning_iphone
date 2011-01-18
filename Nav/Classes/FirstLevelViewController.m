@@ -13,6 +13,7 @@
 #import "RowControlsController.h"
 #import "MoveMeController.h"
 #import "DeleteMeController.h"
+#import "PresidentsViewController.h"
 
 @implementation FirstLevelViewController
 @synthesize controllers;
@@ -59,6 +60,14 @@
 	deleteMeController.title = @"Delete Me";
 	[array addObject:deleteMeController];
 	[deleteMeController release];
+	
+	// President View/Edit
+	PresidentsViewController *presidentsViewController = 
+		[[PresidentsViewController alloc]
+		 initWithStyle:UITableViewStylePlain];
+	presidentsViewController.title = @"Detail Edit";
+	[array addObject:presidentsViewController];
+	[presidentsViewController release];
 	
 	self.controllers = array;
 	[array release];

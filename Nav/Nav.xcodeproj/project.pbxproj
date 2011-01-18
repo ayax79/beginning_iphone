@@ -19,13 +19,17 @@
 		495C9E8D12E135BA0037CDC8 /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495C9E8C12E135BA0037CDC8 /* DisclosureButtonController.m */; };
 		496C9D7612E0AFD800D05D44 /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C9D7512E0AFD800D05D44 /* FirstLevelViewController.m */; };
 		496C9D8412E0B31A00D05D44 /* SecondLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C9D8312E0B31A00D05D44 /* SecondLevelController.m */; };
+		49E8F5B812E4096100216A75 /* PresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E8F5B712E4096100216A75 /* PresidentsViewController.m */; };
+		49E8F65312E4EE3900216A75 /* PresidentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E8F65212E4EE3900216A75 /* PresidentTest.m */; };
+		49E8F71C12E517BD00216A75 /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E8F71B12E517BD00216A75 /* Presidents.plist */; };
 		49F7E40A12E3C0B9002609C2 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */; };
 		49F7E42512E3C29B002609C2 /* RowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E42412E3C29B002609C2 /* RowControlsController.m */; };
 		49F7E43312E3D6A9002609C2 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E43212E3D6A9002609C2 /* button_down.png */; };
 		49F7E43512E3D6B0002609C2 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E43412E3D6B0002609C2 /* button_up.png */; };
 		49F7E46B12E3DDAF002609C2 /* MoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E46A12E3DDAF002609C2 /* MoveMeController.m */; };
 		49F7E4AF12E3EA45002609C2 /* DeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E4AE12E3EA45002609C2 /* DeleteMeController.m */; };
-		49F7E4B712E3F7B6002609C2 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49F7E4B612E3F7B6002609C2 /* computers.plist */; };
+		49F7E4CA12E3FA52002609C2 /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E4C912E3FA52002609C2 /* President.m */; };
+		49F7E4DF12E3FF7D002609C2 /* PresidentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7E4DE12E3FF7D002609C2 /* PresidentDetailController.m */; };
 		49F99BF812E2A71F000BFA0A /* CheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F99BF712E2A71F000BFA0A /* CheckListController.m */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +53,13 @@
 		496C9D7512E0AFD800D05D44 /* FirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelViewController.m; sourceTree = "<group>"; };
 		496C9D8212E0B31A00D05D44 /* SecondLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondLevelController.h; path = ../SecondLevelController.h; sourceTree = "<group>"; };
 		496C9D8312E0B31A00D05D44 /* SecondLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondLevelController.m; path = ../SecondLevelController.m; sourceTree = "<group>"; };
+		49E8F5B612E4096100216A75 /* PresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentsViewController.h; sourceTree = "<group>"; };
+		49E8F5B712E4096100216A75 /* PresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentsViewController.m; sourceTree = "<group>"; };
+		49E8F62A12E4EDD600216A75 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E8F62B12E4EDD600216A75 /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		49E8F65112E4EE3900216A75 /* PresidentTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentTest.h; sourceTree = "<group>"; };
+		49E8F65212E4EE3900216A75 /* PresidentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentTest.m; sourceTree = "<group>"; };
+		49E8F71B12E517BD00216A75 /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
 		49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
 		49F7E42312E3C29B002609C2 /* RowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowControlsController.h; sourceTree = "<group>"; };
 		49F7E42412E3C29B002609C2 /* RowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowControlsController.m; sourceTree = "<group>"; };
@@ -58,7 +69,10 @@
 		49F7E46A12E3DDAF002609C2 /* MoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveMeController.m; sourceTree = "<group>"; };
 		49F7E4AD12E3EA45002609C2 /* DeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteMeController.h; sourceTree = "<group>"; };
 		49F7E4AE12E3EA45002609C2 /* DeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteMeController.m; sourceTree = "<group>"; };
-		49F7E4B612E3F7B6002609C2 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		49F7E4C812E3FA52002609C2 /* President.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = President.h; sourceTree = "<group>"; };
+		49F7E4C912E3FA52002609C2 /* President.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = President.m; sourceTree = "<group>"; };
+		49F7E4DD12E3FF7D002609C2 /* PresidentDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentDetailController.h; sourceTree = "<group>"; };
+		49F7E4DE12E3FF7D002609C2 /* PresidentDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentDetailController.m; sourceTree = "<group>"; };
 		49F99BF612E2A71F000BFA0A /* CheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListController.h; sourceTree = "<group>"; };
 		49F99BF712E2A71F000BFA0A /* CheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Nav-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nav-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -72,6 +86,13 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E8F62712E4EDD600216A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +120,12 @@
 				49F7E46A12E3DDAF002609C2 /* MoveMeController.m */,
 				49F7E4AD12E3EA45002609C2 /* DeleteMeController.h */,
 				49F7E4AE12E3EA45002609C2 /* DeleteMeController.m */,
+				49F7E4C812E3FA52002609C2 /* President.h */,
+				49F7E4C912E3FA52002609C2 /* President.m */,
+				49F7E4DD12E3FF7D002609C2 /* PresidentDetailController.h */,
+				49F7E4DE12E3FF7D002609C2 /* PresidentDetailController.m */,
+				49E8F5B612E4096100216A75 /* PresidentsViewController.h */,
+				49E8F5B712E4096100216A75 /* PresidentsViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -107,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* Nav.app */,
+				49E8F62A12E4EDD600216A75 /* LogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,11 +142,13 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				49E8F65012E4EE0700216A75 /* Tests */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				49E8F62B12E4EDD600216A75 /* LogicTests-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -135,7 +165,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				49F7E4B612E3F7B6002609C2 /* computers.plist */,
+				49E8F71B12E517BD00216A75 /* Presidents.plist */,
 				49F7E43412E3D6B0002609C2 /* button_up.png */,
 				49F7E43212E3D6A9002609C2 /* button_down.png */,
 				49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */,
@@ -155,6 +185,15 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49E8F65012E4EE0700216A75 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49E8F65112E4EE3900216A75 /* PresidentTest.h */,
+				49E8F65212E4EE3900216A75 /* PresidentTest.m */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +216,24 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* Nav.app */;
 			productType = "com.apple.product-type.application";
 		};
+		49E8F62912E4EDD600216A75 /* LogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E8F62E12E4EDD600216A75 /* Build configuration list for PBXNativeTarget "LogicTests" */;
+			buildPhases = (
+				49E8F62512E4EDD600216A75 /* Resources */,
+				49E8F62612E4EDD600216A75 /* Sources */,
+				49E8F62712E4EDD600216A75 /* Frameworks */,
+				49E8F62812E4EDD600216A75 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicTests;
+			productName = LogicTests;
+			productReference = 49E8F62A12E4EDD600216A75 /* LogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +254,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Nav */,
+				49E8F62912E4EDD600216A75 /* LogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,11 +270,34 @@
 				49F7E40A12E3C0B9002609C2 /* checkmarkControllerIcon.png in Resources */,
 				49F7E43312E3D6A9002609C2 /* button_down.png in Resources */,
 				49F7E43512E3D6B0002609C2 /* button_up.png in Resources */,
-				49F7E4B712E3F7B6002609C2 /* computers.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E8F62512E4EDD600216A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E8F71C12E517BD00216A75 /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49E8F62812E4EDD600216A75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -233,6 +314,17 @@
 				49F7E42512E3C29B002609C2 /* RowControlsController.m in Sources */,
 				49F7E46B12E3DDAF002609C2 /* MoveMeController.m in Sources */,
 				49F7E4AF12E3EA45002609C2 /* DeleteMeController.m in Sources */,
+				49F7E4CA12E3FA52002609C2 /* President.m in Sources */,
+				49F7E4DF12E3FF7D002609C2 /* PresidentDetailController.m in Sources */,
+				49E8F5B812E4096100216A75 /* PresidentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E8F62612E4EDD600216A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E8F65312E4EE3900216A75 /* PresidentTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +355,66 @@
 				INFOPLIST_FILE = "Nav-Info.plist";
 				PRODUCT_NAME = Nav;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E8F62C12E4EDD600216A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LogicTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49E8F62D12E4EDD600216A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "LogicTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LogicTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -301,6 +453,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E8F62E12E4EDD600216A75 /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E8F62C12E4EDD600216A75 /* Debug */,
+				49E8F62D12E4EDD600216A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
