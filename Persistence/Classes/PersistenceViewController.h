@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#define kFilename		@"data.plist"
+#define kFilename	@"archive"
+#define kDataKey	@"Data"
 
 @interface PersistenceViewController : UIViewController {
 	UITextField *field1;

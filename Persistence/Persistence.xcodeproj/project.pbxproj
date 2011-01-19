@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* PersistenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PersistenceViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* PersistenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */; };
+		49063D3312E7423B002246B5 /* FourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 49063D3212E7423B002246B5 /* FourLines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistenceViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Persistence_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persistence_Prefix.pch; sourceTree = "<group>"; };
+		49063D3112E7423B002246B5 /* FourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourLines.h; sourceTree = "<group>"; };
+		49063D3212E7423B002246B5 /* FourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourLines.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Persistence-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Persistence-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +57,8 @@
 				1D3623250D0F684500981E51 /* PersistenceAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* PersistenceViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */,
+				49063D3112E7423B002246B5 /* FourLines.h */,
+				49063D3212E7423B002246B5 /* FourLines.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* PersistenceAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* PersistenceViewController.m in Sources */,
+				49063D3312E7423B002246B5 /* FourLines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
