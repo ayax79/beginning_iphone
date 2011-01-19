@@ -30,7 +30,7 @@
 	28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {656, 1209}}";
-			sepNavSelRange = "{660, 50}";
+			sepNavSelRange = "{714, 0}";
 			sepNavVisRange = "{145, 1492}";
 		};
 	};
@@ -224,8 +224,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 25;
-		modificationTime = 317146499.188238;
-		originalNumberOfMultipleMatches = 0;
+		location = Persistence;
+		modificationTime = 317146503.93002;
+		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
 	49063D5D12E74583002246B5 /* PBXTextBookmark */ = {
@@ -269,6 +270,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Persistence;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
