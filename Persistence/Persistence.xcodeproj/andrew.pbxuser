@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Persistence */ = {
+		activeExec = 0;
+		executables = (
+			49526E7012E695C000AF28C8 /* Persistence */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* PersistenceViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {596, 609}}";
+			sepNavSelRange = "{689, 0}";
+			sepNavVisRange = "{0, 695}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 1027}}";
+			sepNavSelRange = "{1360, 0}";
+			sepNavVisRange = "{758, 1327}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 49526E7012E695C000AF28C8 /* Persistence */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Persistence */;
+		codeSenseManager = 49526E7C12E695DF00AF28C8 /* Code sense */;
+		executables = (
+			49526E7012E695C000AF28C8 /* Persistence */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					418,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317144863;
+			PBXWorkspaceStateSaveDate = 317144863;
+		};
+		perUserProjectItems = {
+			49063D2D12E73F26002246B5 /* PBXTextBookmark */ = 49063D2D12E73F26002246B5 /* PBXTextBookmark */;
+			49526E8C12E6A03000AF28C8 = 49526E8C12E6A03000AF28C8 /* PBXTextBookmark */;
+			49526E8D12E6A03000AF28C8 = 49526E8D12E6A03000AF28C8 /* PBXTextBookmark */;
+			49526E8E12E6A03000AF28C8 = 49526E8E12E6A03000AF28C8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 49526E7B12E695DF00AF28C8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	49063D2D12E73F26002246B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 44";
+		rLen = 0;
+		rLoc = 1360;
+		rType = 0;
+		vrLen = 1327;
+		vrLoc = 758;
+	};
+	49526E7012E695C000AF28C8 /* Persistence */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Persistence;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	49526E7B12E695DF00AF28C8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	49526E7C12E695DF00AF28C8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	49526E8C12E6A03000AF28C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PersistenceViewController.h */;
+		name = "PersistenceViewController.h: 25";
+		rLen = 0;
+		rLoc = 689;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 0;
+	};
+	49526E8D12E6A03000AF28C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 33";
+		rLen = 0;
+		rLoc = 1584;
+		rType = 0;
+		vrLen = 1217;
+		vrLoc = 0;
+	};
+	49526E8E12E6A03000AF28C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 44";
+		rLen = 0;
+		rLoc = 1360;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 726;
+	};
+}

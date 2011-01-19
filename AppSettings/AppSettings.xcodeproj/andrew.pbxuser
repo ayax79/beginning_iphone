@@ -45,7 +45,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {663, 975}}";
 			sepNavSelRange = "{1232, 0}";
-			sepNavVisRange = "{665, 1157}";
+			sepNavVisRange = "{622, 1200}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -101,26 +101,34 @@
 					PBXSymbolsDataSource_ReferenceNameID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317005770;
-			PBXWorkspaceStateSaveDate = 317005770;
+			PBXPerProjectTemplateStateSaveDate = 317080977;
+			PBXWorkspaceStateSaveDate = 317080977;
 		};
 		perUserProjectItems = {
+			49526E7A12E695C600AF28C8 /* PBXTextBookmark */ = 49526E7A12E695C600AF28C8 /* PBXTextBookmark */;
 			4973FC8312E5695F0068595A /* PBXTextBookmark */ = 4973FC8312E5695F0068595A /* PBXTextBookmark */;
 			4973FC8412E5695F0068595A /* PBXTextBookmark */ = 4973FC8412E5695F0068595A /* PBXTextBookmark */;
-			4973FC8812E5695F0068595A /* PBXTextBookmark */ = 4973FC8812E5695F0068595A /* PBXTextBookmark */;
-			4973FC8A12E5695F0068595A /* PlistBookmark */ = 4973FC8A12E5695F0068595A /* PlistBookmark */;
 			4973FC8B12E5695F0068595A /* PlistBookmark */ = 4973FC8B12E5695F0068595A /* PlistBookmark */;
 			4973FC9212E569A90068595A /* PBXTextBookmark */ = 4973FC9212E569A90068595A /* PBXTextBookmark */;
 			4973FCB512E56EFA0068595A /* PBXTextBookmark */ = 4973FCB512E56EFA0068595A /* PBXTextBookmark */;
 			4973FCB612E56EFA0068595A /* PBXBookmark */ = 4973FCB612E56EFA0068595A /* PBXBookmark */;
 			4973FCB712E56EFA0068595A /* PBXBookmark */ = 4973FCB712E56EFA0068595A /* PBXBookmark */;
 			4973FCB812E56EFA0068595A /* PBXTextBookmark */ = 4973FCB812E56EFA0068595A /* PBXTextBookmark */;
-			4973FCB912E56EFA0068595A /* PBXTextBookmark */ = 4973FCB912E56EFA0068595A /* PBXTextBookmark */;
 			4973FCBB12E56F370068595A /* PBXTextBookmark */ = 4973FCBB12E56F370068595A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4973FC2F12E51FE90068595A /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	49526E7A12E695C600AF28C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
+		name = "FlipsideViewController.m: 45";
+		rLen = 0;
+		rLoc = 1232;
+		rType = 0;
+		vrLen = 1200;
+		vrLoc = 622;
 	};
 	4973FC2512E51FCA0068595A /* AppSettings */ = {
 		isa = PBXExecutable;
@@ -168,13 +176,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	4973FC3B12E543060068595A /* Root.plist */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.plist.xml;
-		name = Root.plist;
-		path = /Users/andrew/src/AppSettings/Settings.bundle/Root.plist;
-		sourceTree = "<absolute>";
-	};
 	4973FC7F12E5695B0068595A /* MainViewController.m:31 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -213,35 +214,6 @@
 		vrLen = 482;
 		vrLoc = 0;
 	};
-	4973FC8812E5695F0068595A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4973FC8912E5695F0068595A /* Root.strings */;
-		name = "Root.strings: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 272;
-		vrLoc = 0;
-	};
-	4973FC8912E5695F0068595A /* Root.strings */ = {
-		isa = PBXFileReference;
-		name = Root.strings;
-		path = /Users/andrew/src/AppSettings/Settings.bundle/en.lproj/Root.strings;
-		sourceTree = "<absolute>";
-	};
-	4973FC8A12E5695F0068595A /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 4973FC3B12E543060068595A /* Root.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			PreferenceSpecifiers,
-			1,
-		);
-		name = /Users/andrew/src/AppSettings/Settings.bundle/Root.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
 	4973FC8B12E5695F0068595A /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* AppSettings-Info.plist */;
@@ -251,7 +223,7 @@
 		);
 		name = "/Users/andrew/src/AppSettings/AppSettings-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	4973FC9212E569A90068595A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -289,16 +261,6 @@
 		rLoc = 579;
 		rType = 0;
 		vrLen = 741;
-		vrLoc = 0;
-	};
-	4973FCB912E56EFA0068595A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */;
-		name = "FlipsideViewController.m: 29";
-		rLen = 0;
-		rLoc = 1093;
-		rType = 0;
-		vrLen = 985;
 		vrLoc = 0;
 	};
 	4973FCBB12E56F370068595A /* PBXTextBookmark */ = {
