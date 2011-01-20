@@ -21,7 +21,8 @@
 	NSString *documentsDirectory = [paths objectAtIndex:0];
 	return [documentsDirectory stringByAppendingPathComponent:kFilename];
 }
-- (void)applicationWillTerminate:(NSNotification *)notification {
+
+- (IBAction)save {
 	for (int i = 1; i <= 4; i++) {
 		NSString *fieldName = [[NSString alloc]
 							   initWithFormat:@"field%d", i];
@@ -37,10 +38,16 @@
 		}
 		
 		if (sqlite3_step(stmt) != SQLITE_DONE) 
-			NSAssert(0, @"Error updating table: %s", errorMsg);				
-	}
-	sqlite3_close(database);		
+			NSAssert(0, @"Error updating table: %s", errorMsg);			
+		sqlite3_finalize(stmt);
+	}		
 }
+
+- (void)applicationWillTerminate:(NSNotification *)notification {
+	[self save];
+	sqlite3_close(database);
+}
+
 #pragma mark -
 - (void)viewDidLoad {
 	if (sqlite3_open([[self dataFilePath] UTF8String], &database) != SQLITE_OK) {
@@ -49,8 +56,7 @@
 	}
 	char *errorMsg;
 	NSString *createSQL = @"CREATE TABLE IF NOT EXISTS FIELDS (ROW INTEGER PRIMARY KEY, FIELD_DATA TEXT);";
-	if (sqlite3_exec(database, [createSQL UTF8String], 
-					 NULL, NULL, &errorMsg)) {
+	if (sqlite3_exec(database, [createSQL UTF8String], NULL, NULL, &errorMsg)) {
 		sqlite3_close(database);
 		NSAssert1(0, @"Error creating table: %s", errorMsg);
 	}

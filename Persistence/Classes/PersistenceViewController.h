@@ -25,5 +25,6 @@
 @property (nonatomic, retain) IBOutlet UITextField *field4;
 - (NSString *)dataFilePath;
 - (void)applicationWillTerminate:(NSNotification *)notification;
+- (IBAction)save;
 @end
 

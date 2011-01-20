@@ -22,16 +22,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* PersistenceViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {783, 604}}";
-			sepNavSelRange = "{412, 0}";
-			sepNavVisRange = "{0, 752}";
+			sepNavIntBoundsRect = "{{0, 0}, {783, 599}}";
+			sepNavSelRange = "{746, 16}";
+			sepNavVisRange = "{0, 770}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {783, 1339}}";
-			sepNavSelRange = "{1480, 0}";
-			sepNavVisRange = "{1262, 1595}";
+			sepNavIntBoundsRect = "{{0, 0}, {860, 1560}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 1329}";
 			sepNavWindowFrame = "{{15, 355}, {1374, 668}}";
 		};
 	};
@@ -43,7 +43,8 @@
 			1D6058900D05DD3D006BFB54 /* Persistence */,
 		);
 		breakpoints = (
-			49063D5C12E74583002246B5 /* PersistenceViewController.m:43 */,
+			4960EA1112E7FDA000971236 /* PersistenceViewController.m:26 */,
+			4960EA1512E7FFD000971236 /* PersistenceViewController.m:53 */,
 		);
 		codeSenseManager = 49526E7C12E695DF00AF28C8 /* Code sense */;
 		executables = (
@@ -79,7 +80,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					605,
+					682,
 					20,
 					48,
 					43,
@@ -132,6 +133,17 @@
 			4960E9F512E7D38B00971236 /* PBXTextBookmark */ = 4960E9F512E7D38B00971236 /* PBXTextBookmark */;
 			4960E9FA12E7D3AF00971236 /* PBXTextBookmark */ = 4960E9FA12E7D3AF00971236 /* PBXTextBookmark */;
 			4960EA0212E7F7DF00971236 /* PBXTextBookmark */ = 4960EA0212E7F7DF00971236 /* PBXTextBookmark */;
+			4960EA0812E7FC5000971236 /* PBXTextBookmark */ = 4960EA0812E7FC5000971236 /* PBXTextBookmark */;
+			4960EA0912E7FC5000971236 /* PBXTextBookmark */ = 4960EA0912E7FC5000971236 /* PBXTextBookmark */;
+			4960EA0A12E7FC5000971236 /* PBXTextBookmark */ = 4960EA0A12E7FC5000971236 /* PBXTextBookmark */;
+			4960EA0F12E7FD4600971236 /* PBXTextBookmark */ = 4960EA0F12E7FD4600971236 /* PBXTextBookmark */;
+			4960EA1012E7FD4600971236 /* PBXTextBookmark */ = 4960EA1012E7FD4600971236 /* PBXTextBookmark */;
+			4960EA1312E7FDA500971236 /* PBXTextBookmark */ = 4960EA1312E7FDA500971236 /* PBXTextBookmark */;
+			4960EA1412E7FDA500971236 /* PBXTextBookmark */ = 4960EA1412E7FDA500971236 /* PBXTextBookmark */;
+			4960EA1912E7FFE200971236 /* PBXTextBookmark */ = 4960EA1912E7FFE200971236 /* PBXTextBookmark */;
+			4960EA1A12E7FFE200971236 /* PBXTextBookmark */ = 4960EA1A12E7FFE200971236 /* PBXTextBookmark */;
+			4960EA1D12E8011200971236 /* PBXTextBookmark */ = 4960EA1D12E8011200971236 /* PBXTextBookmark */;
+			4960EA1E12E8039900971236 /* PBXTextBookmark */ = 4960EA1E12E8039900971236 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 49526E7B12E695DF00AF28C8 /* Source Control */;
 		userBuildSettings = {
@@ -191,24 +203,6 @@
 		vrLen = 1659;
 		vrLoc = 0;
 	};
-	49063D5C12E74583002246B5 /* PersistenceViewController.m:43 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
-		functionName = "-applicationWillTerminate:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 43;
-		location = Persistence;
-		modificationTime = 317146503.93002;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
 	49063D7312E74855002246B5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* PersistenceViewController.h */;
@@ -224,7 +218,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 74";
 		rLen = 0;
-		rLoc = 2858;
+		rLoc = 2914;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 0;
@@ -234,7 +228,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 34";
 		rLen = 0;
-		rLoc = 1048;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 0;
@@ -246,7 +240,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -268,6 +262,8 @@
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	49526E7B12E695DF00AF28C8 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -288,7 +284,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 34";
 		rLen = 0;
-		rLoc = 1048;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 0;
@@ -298,7 +294,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 35";
 		rLen = 0;
-		rLoc = 1153;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1506;
 		vrLoc = 332;
@@ -308,7 +304,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 40";
 		rLen = 0;
-		rLoc = 1257;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1585;
 		vrLoc = 332;
@@ -318,7 +314,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 35";
 		rLen = 0;
-		rLoc = 1150;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1572;
 		vrLoc = 332;
@@ -328,7 +324,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 36";
 		rLen = 0;
-		rLoc = 1138;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1633;
 		vrLoc = 332;
@@ -338,7 +334,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 53";
 		rLen = 0;
-		rLoc = 1772;
+		rLoc = 1828;
 		rType = 0;
 		vrLen = 1356;
 		vrLoc = 977;
@@ -348,7 +344,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 55";
 		rLen = 0;
-		rLoc = 2446;
+		rLoc = 2502;
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 1284;
@@ -358,7 +354,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 57";
 		rLen = 8;
-		rLoc = 1898;
+		rLoc = 1954;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 1284;
@@ -368,7 +364,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 57";
 		rLen = 0;
-		rLoc = 1962;
+		rLoc = 2018;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 1284;
@@ -378,7 +374,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 59";
 		rLen = 9;
-		rLoc = 2048;
+		rLoc = 2104;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 1284;
@@ -388,7 +384,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 60";
 		rLen = 0;
-		rLoc = 2408;
+		rLoc = 2464;
 		rType = 0;
 		vrLen = 1405;
 		vrLoc = 1284;
@@ -398,7 +394,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 63";
 		rLen = 0;
-		rLoc = 2249;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1466;
 		vrLoc = 1284;
@@ -408,7 +404,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 69";
 		rLen = 0;
-		rLoc = 2443;
+		rLoc = 2499;
 		rType = 0;
 		vrLen = 1506;
 		vrLoc = 1284;
@@ -418,8 +414,8 @@
 		comments = "Expected expression before 'sqlite3_stmt'";
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 38;
+		rLen = 0;
+		rLoc = 49;
 		rType = 1;
 	};
 	4960E9E512E7D29800971236 /* PBXTextBookmark */ = {
@@ -427,7 +423,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 39";
 		rLen = 0;
-		rLoc = 1161;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 977;
@@ -437,8 +433,8 @@
 		comments = "Expected expression before 'sqlite3_stmt'";
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 38;
+		rLen = 0;
+		rLoc = 49;
 		rType = 1;
 	};
 	4960E9E712E7D29D00971236 /* PBXTextBookmark */ = {
@@ -446,7 +442,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 39";
 		rLen = 0;
-		rLoc = 1161;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1762;
 		vrLoc = 312;
@@ -456,7 +452,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 35";
 		rLen = 0;
-		rLoc = 1078;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1740;
 		vrLoc = 312;
@@ -466,8 +462,8 @@
 		comments = "Passing argument 5 of 'sqlite3_bind_text' makes pointer from integer without a cast";
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 35;
+		rLen = 0;
+		rLoc = 49;
 		rType = 1;
 	};
 	4960E9EE12E7D33800971236 /* PBXTextBookmark */ = {
@@ -475,7 +471,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 36";
 		rLen = 0;
-		rLoc = 1085;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 977;
@@ -485,8 +481,8 @@
 		comments = "Passing argument 5 of 'sqlite3_bind_text' makes pointer from integer without a cast";
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 35;
+		rLen = 0;
+		rLoc = 49;
 		rType = 1;
 	};
 	4960E9F012E7D33A00971236 /* PBXTextBookmark */ = {
@@ -494,7 +490,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 36";
 		rLen = 0;
-		rLoc = 1085;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1740;
 		vrLoc = 312;
@@ -504,7 +500,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 39";
 		rLen = 0;
-		rLoc = 1179;
+		rLoc = 1355;
 		rType = 0;
 		vrLen = 1743;
 		vrLoc = 312;
@@ -514,7 +510,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 69";
 		rLen = 0;
-		rLoc = 2446;
+		rLoc = 2502;
 		rType = 0;
 		vrLen = 1419;
 		vrLoc = 1566;
@@ -524,9 +520,155 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
 		name = "PersistenceViewController.m: 48";
 		rLen = 0;
-		rLoc = 1480;
+		rLoc = 1543;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 1262;
+	};
+	4960EA0812E7FC5000971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PersistenceViewController.h */;
+		name = "PersistenceViewController.h: 28";
+		rLen = 16;
+		rLoc = 746;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 0;
+	};
+	4960EA0912E7FC5000971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 25";
+		rLen = 0;
+		rLoc = 1248;
+		rType = 0;
+		vrLen = 1544;
+		vrLoc = 149;
+	};
+	4960EA0A12E7FC5000971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 49";
+		rLen = 0;
+		rLoc = 1357;
+		rType = 0;
+		vrLen = 1373;
+		vrLoc = 149;
+	};
+	4960EA0F12E7FD4600971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 48";
+		rLen = 0;
+		rLoc = 1357;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 149;
+	};
+	4960EA1012E7FD4600971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 42";
+		rLen = 0;
+		rLoc = 1243;
+		rType = 0;
+		vrLen = 1648;
+		vrLoc = 595;
+	};
+	4960EA1112E7FDA000971236 /* PersistenceViewController.m:26 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		functionName = "-save";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 26;
+		location = Persistence;
+		modificationTime = 317194301.020744;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	4960EA1312E7FDA500971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 42";
+		rLen = 0;
+		rLoc = 1243;
+		rType = 0;
+		vrLen = 1637;
+		vrLoc = 464;
+	};
+	4960EA1412E7FDA500971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 42";
+		rLen = 0;
+		rLoc = 1243;
+		rType = 0;
+		vrLen = 1637;
+		vrLoc = 464;
+	};
+	4960EA1512E7FFD000971236 /* PersistenceViewController.m:53 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 53;
+		location = Persistence;
+		modificationTime = 317194212.318511;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	4960EA1912E7FFE200971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 42";
+		rLen = 0;
+		rLoc = 1243;
+		rType = 0;
+		vrLen = 1654;
+		vrLoc = 1112;
+	};
+	4960EA1A12E7FFE200971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 42";
+		rLen = 0;
+		rLoc = 1243;
+		rType = 0;
+		vrLen = 1605;
+		vrLoc = 1112;
+	};
+	4960EA1D12E8011200971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 49";
+		rLen = 0;
+		rLoc = 1355;
+		rType = 0;
+		vrLen = 435;
+		vrLoc = 957;
+	};
+	4960EA1E12E8039900971236 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PersistenceViewController.m */;
+		name = "PersistenceViewController.m: 17";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 1329;
+		vrLoc = 0;
 	};
 }
