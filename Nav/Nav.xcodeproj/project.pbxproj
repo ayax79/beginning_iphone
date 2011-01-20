@@ -13,7 +13,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		49169B7712E22BD6007D6546 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49169B7612E22BD6007D6546 /* disclosureButtonControllerIcon.png */; };
 		495C9E7F12E132CC0037CDC8 /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495C9E7E12E132CC0037CDC8 /* DisclosureDetailController.m */; };
 		495C9E8912E134540037CDC8 /* DisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495C9E8812E134540037CDC8 /* DisclosureDetail.xib */; };
 		495C9E8D12E135BA0037CDC8 /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495C9E8C12E135BA0037CDC8 /* DisclosureButtonController.m */; };
@@ -43,7 +42,6 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Nav_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav_Prefix.pch; sourceTree = "<group>"; };
-		49169B7612E22BD6007D6546 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disclosureButtonControllerIcon.png; path = ../../../Desktop/disclosureButtonControllerIcon.png; sourceTree = SOURCE_ROOT; };
 		495C9E7D12E132CC0037CDC8 /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
 		495C9E7E12E132CC0037CDC8 /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
 		495C9E8812E134540037CDC8 /* DisclosureDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisclosureDetail.xib; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 				49F7E43412E3D6B0002609C2 /* button_up.png */,
 				49F7E43212E3D6A9002609C2 /* button_down.png */,
 				49F7E40912E3C0B9002609C2 /* checkmarkControllerIcon.png */,
-				49169B7612E22BD6007D6546 /* disclosureButtonControllerIcon.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Nav-Info.plist */,
 				495C9E8812E134540037CDC8 /* DisclosureDetail.xib */,
@@ -266,7 +263,6 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				495C9E8912E134540037CDC8 /* DisclosureDetail.xib in Resources */,
-				49169B7712E22BD6007D6546 /* disclosureButtonControllerIcon.png in Resources */,
 				49F7E40A12E3C0B9002609C2 /* checkmarkControllerIcon.png in Resources */,
 				49F7E43312E3D6A9002609C2 /* button_down.png in Resources */,
 				49F7E43512E3D6B0002609C2 /* button_up.png in Resources */,
